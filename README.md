@@ -24,6 +24,7 @@ After downloading the repo, you can change names of files and edit html
 
 ### live page
 
+https://rajpra786.github.io/ResearchPapers-Template/
 
 ### How to contribute
 1. Give it a star if you like it
