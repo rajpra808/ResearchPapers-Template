@@ -3,7 +3,7 @@
 
 # Use
 ### This template can be used
-- for showcase univercity previous year papers
+- for showcase university previous year papers
 - For sharing other resources
 
 ### Tech
