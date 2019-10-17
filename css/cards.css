@@ -44,6 +44,12 @@
   background-size:cover;
   background-repeat:no-repeat;
 }
+.os{
+  background:url('os.png');
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 
 .Cards_name{
   font-family: 'Open Sans', sans-serif;
