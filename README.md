@@ -64,3 +64,5 @@ You can do following upgrades to this template
 ### Contributers
 - Rajendra Prajapat(https://github.com/rajpra786)
 - (next name can be yours. For those who create valid pull request, I will merge the changes and add contributer's name here)
+
+-Bal Sharma(https://github.com/BalSharma)
