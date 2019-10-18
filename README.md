@@ -63,4 +63,11 @@ You can do following upgrades to this template
 
 ### Contributers
 - Rajendra Prajapat(https://github.com/rajpra786)
+
+### Pull Requests By  (merged successfully)
+- Susmitha Sanikommu(https://github.com/Sush97)
+- https://github.com/perun-01
+- https://github.com/RyujinKage
+- Vincent Lidebo Kjellman(https://github.com/VincentLideboKjellman)
+- (When you make a pull request for a new feature or any edit, please add your name and profile link here.)
 - (next name can be yours. For those who create valid pull request, I will merge the changes and add contributer's name here)
