@@ -1,34 +1,169 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS  flex-direction: row; -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <style>
+    a.brand-logo {
+      margin-left: 30px;
+    }
+
+    nav ul a:hover {
+      background: blueviolet;
+    }
+
+
+    .card .card-image img {
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .row-card {
+      display: inline-block;
+    }
+  </style>
+
+  <title>Research Papers</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper teal lighten-2 mb-3">
+        <a href="#" class="brand-logo">
+          <i class="material-icons">home</i>
+          Research Papers</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#Subjects" class="w3-bar-item w3-button">Subjects</a></li>
+          <li><a href="#about" class="w3-bar-item w3-button">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col m12 center-align">
+        <img class="responsive-img" src=" images/home_page.jpg" class="ma-5" alt="Architecture">
+        <span class="card-action">
+          <!-- Modal Trigger from this button for popup window -->
+          <a id="addBtn" data-target="card-modal"
+            class="btn-floating btn-large waves-effect waves-light red right modal-trigger"><i
+              class="material-icons">add</i></a>
+        </span>
+      </div>
+    </div>
+    <div class="row row-card">
+      <div class="col m4">
+        <div class="card blue-grey center-align darken-1">
+          <div class="card-content white-text">
+            <div class="card-image">
+              <img src="./css/dbms.png" class="responsive-img">
+            </div>
+            <h5>DBMS</h5>
+            <p>Database Management System </p>
+          </div>
+          <div class="card-action">
+            <a href="dbms.html">
+              <button class="waves-effect waves-light btn">Click Here</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col m4">
+        <div class="card blue-grey center-align darken-1">
+          <div class="card-content white-text">
+            <div class="card-image">
+              <img src="./css/network.png" class="responsive-img">
+            </div>
+            <h5>Networking</h5>
+            Networking allows nodes to share resources.
+          </div>
+          <div class="card-action">
+            <a href="dbms.html">
+              <button class="waves-effect waves-light btn">Click Here</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal structure begins -->
+    <div class="row">
+      <div class="col md12 center-align card">
+        <!-- <div class="card blue-grey darken-1"> -->
+        <div id="card-modal" class="modal">
+          <div class="modal-content">
+            <input id="card_title" type="text" class="validate">
+            <label for="card_title" color="teal">Card Title</label>
+            <input id="card_info" type="text" class="validate">
+            <label for="card_info" color="teal">Card Descriptions</label>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" id="btnAdd" class="modal-close waves-effect waves-green btn">
+              Add New Card</a>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+
+    </div>
+    <!-- Modal structure ends -->
+    <footer class="page-footer teal lighten-2">
+      <!-- <div class="footer-copyright">   -->
+      <p class="center-align">© 2019 Template Research Papers</p>
+      <!-- </div> -->
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/popup-modal.js"></script>
+</body>
+
+</html>
+
+<!-- ROLLING BACK AS PER RAJP Requirements -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
 <title>Research Papers</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/cards.css">
 <link rel="stylesheet" href="css/index.css">
-<body>
-
+<body> -->
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<!-- <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"> Research Papers </a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
+    <a href="#home" class="w3-bar-item w3-button"> Research Papers </a> -->
+<!-- Float links to the right. Hide them on small screens -->
+<!-- <div class="w3-right w3-hide-small">
       <a href="#Subjects" class="w3-bar-item w3-button">Subjects</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
     </div>
   </div>
-</div>
-
+</div> -->
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+<!-- <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="images/home_page.jpg" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b> Research Papers </b></span></h1>
   </div>
-</header>
+</header> -->
 <!-- Cards -->
-<div class="cards" id=#Subjects>
+<!-- <div class="cards" id=#Subjects>
   <div class="Cards_wrapper">
     <div class="Cards_item">
       <div class="Cards_avatar dbms">
@@ -60,12 +195,12 @@
       </a>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
+<!-- <footer class="w3-center w3-black w3-padding-16">
   <p>Template by w3schools</p>
 </footer>
 
 </body>
-</html>
+</html> -->
