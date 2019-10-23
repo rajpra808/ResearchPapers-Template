@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/cards.css">
 <link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/dbms.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
 
@@ -28,6 +29,7 @@
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min">Database Management System</span></h1>
   </div>
 </header>
+
 <!-- Cards -->
 <div class="cards">
   <div class="Cards_wrapper">
@@ -62,24 +64,47 @@
     </div>
   </div>
 
-  <!-- <div class="Cards_wrapper">
+  <!-- By balsharma -->
+
+  <div class="Cards_wrapper">
     <div class="Cards_item">
-      <h3 class="Cards_name">
-        Paper Name
-      </h3>
-      <p class="Cards_name">
-          Author
-      </p>
-      <a href="dbms/filename" download>
-        <button class="button Download btn"><i class="fa fa-download"></i> Download</button>
-      </a>
+      <a class="button" href="#popup1">Add New Card</a>
     </div>
-  </div> -->
+  </div>
+
+  <!-- popup -->
+  <div id="popup1" class="overlay">
+  	<div class="popup">
+      <a class="close" href="#">&times;</a>
+
+      <div class="name-description">
+      <input type="text" name="" id="Card-name" placeholder='TITLE'/>
+      <textarea name="" id="Card-desc" cols="30" rows="5" placeholder='DESCRIPTION'></textarea>
+      </div>
+
+      <br>
+      <!-- upload file -->
+      <div class="upload-btn-wrapper">
+        <button class="btn btn1">Upload File</button>
+        <input type="file" id="file_path" name="myfile" />
+      </div>
+
+      <a href="#!" id="btnAdd" class="btn btn2">
+        Add Card</a>
+  	</div>
+  </div>
+
 </div>
+
+<!-- javascript -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+<script src="./js/popup-modal.js"></script>
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Template by w3schools</p>
+  <p class="center-align">© 2019 Template Research Papers</p>
 </footer>
 
 </body>
